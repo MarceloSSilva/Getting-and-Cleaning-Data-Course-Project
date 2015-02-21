@@ -1,16 +1,4 @@
-# Main 
-# 1) there are 30 volunteers (subject)
-# 2) each person perform 6 different activities (activity labels)
-# 3) sensors are generating data (features)
-# 4) people is divided into two groups for training (70%) and testing (30%)
-# 5) training group is generating "x" and "y" data sets
-# 6) testing group is generating "x" and "y" data sets 
-# 7) merge in one group the training "x" and testing "x"
-# 8) do the same for "subject", "y"
-# 9) rename columns
-# 10) create a independent tidy data
-
-# to run and View
+# to run
 # > source("run_analysis.R"`)
 # > run_analysis()
 # It takes only 34.183 seconds to run on a Macbook Pro 2.4 GHz Intel Core i5
