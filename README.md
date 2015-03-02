@@ -77,8 +77,10 @@ column name for the 30 volunteers
 25) Write a final dataset and generate a text file with this dataset
 write.table(dataset5, file = "dataset-average.txt", row.names = FALSE)
 
-to run and View
+##to run and View
 
-source("run_analysis.R"`)
-run_analysis()
-It takes only 34 seconds to run on a Macbook Pro 2.4 GHz Intel Core i5
+##source("run_analysis.R"`)
+
+##run_analysis()
+
+##It takes only 34 seconds to run on a Macbook Pro 2.4 GHz Intel Core i5
