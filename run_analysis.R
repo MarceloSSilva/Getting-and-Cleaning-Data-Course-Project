@@ -50,7 +50,7 @@ library(plyr)
 # X_test =  2947 by 66
 # X_train = 7352 by 66
 
-  merged_X <- merge(X_test, X_train, all=TRUE)
+  merged_X <- merge(X_test, X_train, sort = FALSE, all=TRUE)
 
 # change all variable names to lower case as best pratice and
 # make syntactically valid names out of character vectors.
