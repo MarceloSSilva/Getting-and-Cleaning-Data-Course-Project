@@ -1,16 +1,26 @@
 # Getting-and-Cleaning-Data-Course-Project
-Project Information
+#Project Information
 
 A) There are 30 volunteers (subject)
+
 B) Each volunteer performs 6 different activities (activity labels)
+
 C) Sensors are generating data (features)
+
 D) People is divided into two groups: training (70%) and testing (30%)
+
 E) Training group is generating "x" and "y" data sets
+
 F) Testing group is generating "x" and "y" data sets 
+
 G) Merge the training and testing in only one data set
+
 H) Merge the training and the testing subject in one data set
+
 I) merge all files
+
 J) rename columns
+
 H) create a independent tidy data with the average of each volunteer and each activity
 
 Main Algorithm
