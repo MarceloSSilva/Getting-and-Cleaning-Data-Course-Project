@@ -26,9 +26,13 @@ H) create a independent tidy data with the average of each volunteer and each ac
 #Main Algorithm
 
 1) Load library(dplyr) library(plyr)
+
 2) Read common files for test and train
+
 3) Read Test "x" files 
-4) Prepare "x" files to merge 
+
+4) Prepare "x" files to merge
+
 5) include column names
 
 6) keep only the columns with mean() and std() names
@@ -44,7 +48,9 @@ H) create a independent tidy data with the average of each volunteer and each ac
 13) Found 66 columns
 
 14) Merge X_test with X_train files, resulting 10299 rows by 66 columns
+
 15) change all variable names to lower case as best pratice and
+
 16) make syntactically valid names out of character vectors.
 
 17) Prepare y_test and y_train to be added to the final dataset.
@@ -53,17 +59,21 @@ not the need to identify each group after the dataset join, so I did not
 include any additional column in the final dataset
 
 18) join y_test and y_train
+
 19) include the label name "activity" as column name
+
 20) include the activity labels in the y_files, using lowercase characters as
 best practice, for: walking, walking-upstaires, walking-downstairs, siting, standing and lying
 
 21) Prepare subject_test and subject_train files to be added to the final dataset
+
 22) join subject_test and subject_train and include the label name "subject" as 
 column name for the 30 volunteers
 
 23) combine all objects and arrange by activity and subject
 
 24) Generate the average by grouping activity and subject and summarise each group
+
 25) Write a final dataset and generate a text file with this dataset
 write.table(dataset5, file = "dataset-average.txt", row.names = FALSE)
 
