@@ -23,7 +23,7 @@ J) rename columns
 
 H) create a independent tidy data with the average of each volunteer and each activity
 
-Main Algorithm
+#Main Algorithm
 
 1) Load library(dplyr) library(plyr)
 2) Read common files for test and train
